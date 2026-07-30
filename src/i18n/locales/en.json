@@ -1,0 +1,391 @@
+{
+  "nav": {
+    "school": "School",
+    "about": "About",
+    "leadership": "Leadership",
+    "teachers": "Teachers & Staff",
+    "documents": "Documents",
+    "activity": "Activity",
+    "achievers": "Achievers",
+    "clubs": "Clubs & Circles",
+    "education": "Education",
+    "curriculum": "Curriculum",
+    "edu_info": "Education Info",
+    "news": "News",
+    "contact": "Contact",
+    "gallery": "Gallery",
+    "open_menu": "Open menu",
+    "close_menu": "Close menu"
+  },
+  "hero": {
+    "badge": "Fergana, Uzbekistan",
+    "title": "Secondary School No. 2 of Fergana City",
+    "subtitle": "A state specialized school with in-depth study of selected subjects. Teaching since 1968.",
+    "cta_about": "About the school",
+    "cta_contact": "Get in touch",
+    "eyebrow": "Secondary general education school",
+    "title_line1": "SCHOOL",
+    "title_accent": "No. 2",
+    "title_line2": "OF FERGANA CITY",
+    "vertical": "Teaching and nurturing since 1968",
+    "ticker": "{{p}}% of the {{year}} graduates entered university"
+  },
+  "stats": {
+    "founded": "Founded",
+    "students": "Students",
+    "staff": "Teachers",
+    "classes": "Classes",
+    "directions": "Directions",
+    "admitted": "University entry"
+  },
+  "stats_section": {
+    "badge": "School in numbers",
+    "title": "The essentials"
+  },
+  "marquee": {
+    "aria": "Subjects taught at the school"
+  },
+  "about_section": {
+    "badge": "About us",
+    "title": "More than half a century of teaching",
+    "body1": "School No. 2 is one of the leading specialized schools in Fergana. The first building opened in 1968, the second in 1989. Today 1,870 students study here.",
+    "body2": "We combine strong academic traditions with modern approaches: in-depth study of selected subjects, well-equipped classrooms and highly qualified teachers.",
+    "more": "More about the school",
+    "city": "Fergana, city centre",
+    "year": "Since 1968",
+    "type": "Specialized",
+    "language": "Taught in Russian"
+  },
+  "facilities": {
+    "badge": "Facilities",
+    "title": "Where our lessons happen",
+    "subtitle": "Two teaching buildings, a sports hall and an assembly hall, subject classrooms and computer labs with internet access.",
+    "seats": "seats",
+    "computers": "computers",
+    "items": {
+      "gym": "Sports hall",
+      "assembly": "Assembly hall",
+      "buildings": "Teaching buildings",
+      "halls": "Halls and common areas"
+    },
+    "buildings_meta": "2 buildings · {{total}} student places",
+    "halls_meta": "Decorated common areas and school exhibitions",
+    "extras": {
+      "labs": "Subject classrooms: {{list}}",
+      "it": "{{rooms}} computer labs · {{computers}} computers, internet",
+      "library": "School library",
+      "canteen": "Canteen with {{seats}} seats"
+    }
+  },
+  "clubs_section": {
+    "badge": "Beyond lessons",
+    "title": "Clubs & circles",
+    "all": "All circles"
+  },
+  "news_section": {
+    "badge": "Latest",
+    "title": "Recent news",
+    "all": "All news"
+  },
+  "achievers_section": {
+    "badge": "Pride",
+    "title": "Pride of the school",
+    "highlight": "school",
+    "all": "View all"
+  },
+  "documents_section": {
+    "badge": "Documents",
+    "title": "School passport and official documents",
+    "body": "Complete information about the school — buildings, staff, facilities and results — in a single document. Download it in one click.",
+    "cta": "Go to documents"
+  },
+  "contact_section": {
+    "badge": "Contact",
+    "title": "How to find us",
+    "address": "37 Murabbiylar St., Fergana",
+    "full_page": "Full contact page",
+    "map_title": "School No. 2 on the map"
+  },
+  "alt": {
+    "facade": "Facade of School No. 2",
+    "building": "School teaching building",
+    "assembly": "School assembly hall",
+    "school_photo": "School photo {{n}}"
+  },
+  "footer": {
+    "tagline": "Teaching and nurturing since 1968.",
+    "rights": "All rights reserved.",
+    "links_school": "School",
+    "links_activity": "Activity",
+    "links_other": "Other",
+    "contacts": "Contact"
+  },
+  "clubs_page": {
+    "type_club": "Club",
+    "type_circle": "Circle",
+    "clubs_title": "Start Up Club",
+    "clubs_subtitle": "The school's only club: students come up with, build and pitch their own projects.",
+    "circles_title": "School circles",
+    "circles_subtitle": "After-school activities — academic, sporting and creative."
+  },
+  "pages": {
+    "home": {
+      "title": "Secondary School No. 2 of Fergana City",
+      "description": "Official website of School No. 2 in Fergana — a state specialized school with in-depth study of selected subjects, operating since 1968."
+    },
+    "about": {
+      "title": "About the school",
+      "description": "History, mission and official information about School No. 2 of Fergana",
+      "banner_subtitle": "History, mission and official information"
+    },
+    "leadership": {
+      "title": "Leadership",
+      "description": "Principal and deputy principals of School No. 2 of Fergana",
+      "banner_subtitle": "The school's administrative team",
+      "director_title": "School Principal",
+      "team_title": "Deputy principals",
+      "team_subtitle": "Academic and educational affairs of the school.",
+      "message_label": "Principal's message",
+      "default_message": "Our school is a place for growth, knowledge and discovery.",
+      "empty_title": "Leadership not added yet",
+      "empty_body": "The principal and deputies will appear here once they are added in the admin panel."
+    },
+    "teachers": {
+      "title": "Teachers & Staff",
+      "description": "Teaching staff of School No. 2 of Fergana",
+      "banner_subtitle": "92 teachers, all with higher education",
+      "filter_all": "All",
+      "filter_teachers": "Teachers",
+      "filter_staff": "Staff",
+      "search_placeholder": "Search by name or subject...",
+      "empty_title": "No teachers listed yet",
+      "empty_body": "Teachers will appear here as soon as the administration adds them.",
+      "nothing_found": "Nothing found"
+    },
+    "achievers": {
+      "title": "Achievers",
+      "description": "Outstanding students and alumni of School No. 2 of Fergana",
+      "banner_subtitle": "Our winners and alumni",
+      "filter_all": "All",
+      "year_label": "Year",
+      "empty_title": "Nothing here yet",
+      "empty_body": "Olympiad winners and alumni will appear here once they are added in the admin panel."
+    },
+    "clubs": {
+      "title": "Clubs & circles",
+      "description": "The club and circles of School No. 2 of Fergana",
+      "banner_subtitle": "What you can do after lessons",
+      "members": "Members",
+      "schedule": "Schedule",
+      "teacher": "Lead teacher",
+      "join": "Sign up",
+      "close": "Close",
+      "empty_title": "No circles added yet",
+      "empty_body": "As soon as the school adds circles in the admin panel, they will appear here with a schedule, a lead teacher and their own page."
+    },
+    "club_detail": {
+      "about": "About the circle",
+      "goals": "What we learn",
+      "achievements": "Achievements",
+      "gallery": "Photos",
+      "room": "Room",
+      "other": "Other circles",
+      "back_to_all": "All clubs & circles",
+      "not_found_title": "Circle not found",
+      "not_found_body": "The link may be outdated or the entry was removed. Take a look at the full list of school circles."
+    },
+    "education": {
+      "title": "Education",
+      "description": "Curriculum and educational information of School No. 2 of Fergana",
+      "banner_subtitle": "Curriculum and how learning is organised",
+      "tab_plan": "Curriculum",
+      "tab_info": "Education info",
+      "grade_label": "Grade",
+      "download_pdf": "Download PDF",
+      "subjects": "Subjects",
+      "empty_grade": "The curriculum for grade {{grade}} will be added soon",
+      "info": {
+        "year": "Academic year",
+        "grading": "Grading system",
+        "grading_value": "5-point scale",
+        "grades": "Grades",
+        "grades_value": "Grades 1–11",
+        "language": "Language of instruction",
+        "shifts": "Shifts",
+        "shifts_value": "2 shifts",
+        "accreditation": "Governing body",
+        "accreditation_value": "Ministry of Preschool and School Education of the Republic of Uzbekistan"
+      }
+    },
+    "news": {
+      "title": "News",
+      "description": "News and events of School No. 2 of Fergana",
+      "banner_subtitle": "What is happening at school",
+      "load_more": "Load more",
+      "all_categories": "All",
+      "views": "views",
+      "empty_title": "No news yet",
+      "empty_body": "School events and announcements will appear here."
+    },
+    "news_detail": {
+      "share": "Share",
+      "copy_link": "Copy link",
+      "related": "Read also"
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Address, phone numbers and map — School No. 2 of Fergana",
+      "banner_subtitle": "Write to us or come and visit"
+    },
+    "gallery": {
+      "title": "Gallery",
+      "description": "Photo gallery of School No. 2 of Fergana",
+      "banner_subtitle": "School life in photos",
+      "filter_all": "All",
+      "filter_events": "Events",
+      "filter_classes": "Lessons",
+      "filter_sport": "Sport",
+      "filter_clubs": "Circles",
+      "empty_title": "No photos yet",
+      "empty_body": "Photos of school life will appear here once they are uploaded in the admin panel."
+    },
+    "documents": {
+      "title": "Documents",
+      "description": "Official documents of School No. 2 of Fergana: school passport and records",
+      "banner_subtitle": "Official documents and school records",
+      "badge": "Download",
+      "section_title": "School documents",
+      "section_subtitle": "Files can be downloaded directly — no registration needed.",
+      "download": "Download school passport",
+      "contact_cta": "Request another document",
+      "items": {
+        "passport": {
+          "title": "School passport (2025)",
+          "body": "Official school records: buildings and grounds, number of students and classes, teaching staff, facilities and graduate results.",
+          "meta": "DOCX · Microsoft Word format · Updated in 2025"
+        }
+      },
+      "notes": {
+        "official": {
+          "title": "Official source",
+          "body": "The data in the passport is provided by the school administration and follows the official reporting form."
+        },
+        "request": {
+          "title": "Need another document?",
+          "body": "Write or call us — we will prepare the certificate or statement and explain how to collect it."
+        }
+      }
+    },
+    "not_found": {
+      "title": "Page not found",
+      "heading": "This page does not exist",
+      "body": "The link may be outdated or the address mistyped. Go back to the homepage or use the menu."
+    }
+  },
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send",
+    "sending": "Sending...",
+    "success_title": "Message sent!",
+    "success_body": "We will get back to you shortly.",
+    "error": "Failed to send. Please try again.",
+    "required": "Required field",
+    "invalid_email": "Invalid email format",
+    "subjects": {
+      "general": "General inquiry",
+      "admission": "Admission",
+      "partnership": "Partnership",
+      "other": "Other"
+    }
+  },
+  "about_page": {
+    "history_label": "History",
+    "history_title": "How the school grew",
+    "history_subtitle": "Key dates from the school passport.",
+    "timeline": [
+      {
+        "year": "1968",
+        "title": "First building",
+        "desc": "School No. 2 opened its doors to the first students in the centre of Fergana."
+      },
+      {
+        "year": "1989",
+        "title": "Second building",
+        "desc": "A second building for 270 places was built — the school grew to 1,150 student places."
+      },
+      {
+        "year": "2009",
+        "title": "State renovation",
+        "desc": "The buildings were renovated under a state programme."
+      },
+      {
+        "year": "2024",
+        "title": "Class of the year",
+        "desc": "134 graduates from grade 11, of whom 122 entered universities — 91%."
+      },
+      {
+        "year": "2025",
+        "title": "Today",
+        "desc": "1,870 students, 57 classes, 92 teachers and in-depth study of selected subjects."
+      }
+    ],
+    "mission_title": "Mission",
+    "mission_body": "To equip every student with deep knowledge, creative thinking and civic responsibility.",
+    "vision_title": "Vision",
+    "vision_body": "To become a model school of Uzbekistan, raising the leaders of tomorrow.",
+    "values_title": "Values",
+    "values_body": "Integrity, a drive for knowledge, respect for culture and openness to the world.",
+    "gallery_label": "Photo gallery",
+    "gallery_title": "Our school in photos",
+    "facts_label": "Records",
+    "facts_title": "School information",
+    "categories_title": "Teachers by qualification",
+    "categories": {
+      "highest": "Highest category",
+      "first": "First category",
+      "second": "Second category",
+      "specialist": "Specialist",
+      "certified": "With a national or international certificate"
+    },
+    "results_title": "Class of {{year}}",
+    "results": {
+      "graduates": "grade 11 graduates",
+      "score": "average entry score",
+      "admitted": "entered universities"
+    },
+    "facts": {
+      "founded": "Year built",
+      "building1": "building 1",
+      "building2": "building 2",
+      "type": "Status",
+      "language": "Language of instruction",
+      "city": "Location",
+      "city_value": "Fergana, city centre",
+      "students": "Students",
+      "classes": "Classes",
+      "shifts": "Shifts",
+      "shift_detail": "Shift I: {{c1}} classes / {{s1}} students, Shift II: {{c2}} classes / {{s2}} students",
+      "capacity": "Designed capacity",
+      "places": "places",
+      "staff": "Teachers",
+      "all_higher": "all with higher education",
+      "area": "Grounds area",
+      "people": "people",
+      "units": "total",
+      "address": "Address",
+      "managing": "Governing body"
+    }
+  },
+  "scroll_indicator": "Scroll",
+  "breadcrumb": {
+    "home": "Home"
+  },
+  "brand": {
+    "name": "SCHOOL No. 2",
+    "tagline": "Fergana · since 1968"
+  }
+}

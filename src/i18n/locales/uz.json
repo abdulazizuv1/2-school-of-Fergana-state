@@ -1,0 +1,391 @@
+{
+  "nav": {
+    "school": "Maktab",
+    "about": "Maktab haqida",
+    "leadership": "Rahbariyat",
+    "teachers": "O'qituvchilar va xodimlar",
+    "documents": "Hujjatlar",
+    "activity": "Faoliyat",
+    "achievers": "Maktab faxri",
+    "clubs": "Klub va to'garaklar",
+    "education": "O'quv jarayoni",
+    "curriculum": "O'quv reja",
+    "edu_info": "Ta'lim haqida ma'lumot",
+    "news": "Yangiliklar",
+    "contact": "Aloqa",
+    "gallery": "Galereya",
+    "open_menu": "Menyuni ochish",
+    "close_menu": "Menyuni yopish"
+  },
+  "hero": {
+    "badge": "Farg'ona, O'zbekiston",
+    "title": "Farg'ona shahar 2-sonli umumiy o'rta ta'lim maktabi",
+    "subtitle": "Ayrim fanlar chuqur o'rganiladigan davlat ixtisoslashtirilgan maktabi. 1968-yildan buyon ta'lim beramiz.",
+    "cta_about": "Maktab haqida",
+    "cta_contact": "Bog'lanish",
+    "eyebrow": "Umumiy o'rta ta'lim maktabi",
+    "title_line1": "MAKTAB",
+    "title_accent": "№ 2",
+    "title_line2": "FARG'ONA SHAHRI",
+    "vertical": "1968-yildan buyon ta'lim va tarbiya",
+    "ticker": "{{year}}-yil bitiruvchilarining {{p}} % OTMga kirdi"
+  },
+  "stats": {
+    "founded": "Tashkil etilgan",
+    "students": "O'quvchilar",
+    "staff": "Pedagoglar",
+    "classes": "Sinflar",
+    "directions": "Yo'nalishlar",
+    "admitted": "OTMga kirganlar"
+  },
+  "stats_section": {
+    "badge": "Maktab raqamlarda",
+    "title": "Eng muhimi qisqacha"
+  },
+  "marquee": {
+    "aria": "Maktabda o'qitiladigan fanlar"
+  },
+  "about_section": {
+    "badge": "Biz haqimizda",
+    "title": "Yarim asrdan ortiq tarixga ega maktab",
+    "body1": "2-maktab — Farg'onadagi yetakchi ixtisoslashtirilgan maktablardan biri. Birinchi bino 1968-yilda, ikkinchisi 1989-yilda ochilgan. Bugun bu yerda 1870 nafar o'quvchi tahsil oladi.",
+    "body2": "Biz kuchli akademik an'analarni zamonaviy yondashuvlar bilan birlashtiramiz: ayrim fanlarni chuqur o'rganish, jihozlangan xonalar va oliy toifali pedagoglar.",
+    "more": "Batafsil",
+    "city": "Farg'ona, shahar markazi",
+    "year": "1968-yildan",
+    "type": "Ixtisoslashtirilgan",
+    "language": "Rus tilida o'qitiladi"
+  },
+  "facilities": {
+    "badge": "Moddiy-texnik baza",
+    "title": "Darslar qayerda o'tadi",
+    "subtitle": "Ikki o'quv binosi, sport va faollar zallari, fan xonalari hamda internetga ulangan kompyuter sinflari.",
+    "seats": "o'rin",
+    "computers": "kompyuter",
+    "items": {
+      "gym": "Sport zali",
+      "assembly": "Faollar zali",
+      "buildings": "O'quv binolari",
+      "halls": "Xollar va dam olish zonalari"
+    },
+    "buildings_meta": "2 bino · {{total}} o'quvchi o'rni",
+    "halls_meta": "Bezatilgan dam olish zonalari va maktab ekspozitsiyalari",
+    "extras": {
+      "labs": "Fan xonalari: {{list}}",
+      "it": "{{rooms}} ta kompyuter sinfi · {{computers}} ta kompyuter, internet",
+      "library": "Maktab kutubxonasi",
+      "canteen": "{{seats}} o'rinli oshxona"
+    }
+  },
+  "clubs_section": {
+    "badge": "Darsdan tashqari hayot",
+    "title": "Klub va to'garaklar",
+    "all": "Barcha to'garaklar"
+  },
+  "news_section": {
+    "badge": "Dolzarb",
+    "title": "So'nggi yangiliklar",
+    "all": "Barcha yangiliklar"
+  },
+  "achievers_section": {
+    "badge": "Faxrimiz",
+    "title": "Maktab faxri",
+    "highlight": "faxri",
+    "all": "Barchasini ko'rish"
+  },
+  "documents_section": {
+    "badge": "Hujjatlar",
+    "title": "Maktab pasporti va rasmiy hujjatlar",
+    "body": "Maktab haqidagi to'liq ma'lumot — binolar, kadrlar, moddiy baza va natijalar — bitta hujjatda. Bir bosishda yuklab oling.",
+    "cta": "Hujjatlarga o'tish"
+  },
+  "contact_section": {
+    "badge": "Aloqa",
+    "title": "Bizni qanday topish mumkin",
+    "address": "Farg'ona, Murabbiylar ko'chasi 37",
+    "full_page": "To'liq aloqa sahifasi",
+    "map_title": "2-maktab xaritada"
+  },
+  "alt": {
+    "facade": "2-maktab fasadi",
+    "building": "Maktab o'quv binosi",
+    "assembly": "Maktab faollar zali",
+    "school_photo": "Maktab surati {{n}}"
+  },
+  "footer": {
+    "tagline": "1968-yildan buyon ta'lim va tarbiya beramiz.",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "links_school": "Maktab",
+    "links_activity": "Faoliyat",
+    "links_other": "Boshqa",
+    "contacts": "Aloqa"
+  },
+  "clubs_page": {
+    "type_club": "Klub",
+    "type_circle": "To'garak",
+    "clubs_title": "Start Up Club",
+    "clubs_subtitle": "Maktabdagi yagona klub: o'quvchilar o'z loyihalarini o'ylab topadi, yaratadi va himoya qiladi.",
+    "circles_title": "Maktab to'garaklari",
+    "circles_subtitle": "Darsdan keyingi mashg'ulotlar — fan, sport va ijodiy yo'nalishlarda."
+  },
+  "pages": {
+    "home": {
+      "title": "Farg'ona shahar 2-sonli umumiy o'rta ta'lim maktabi",
+      "description": "Farg'ona shahar 2-maktabining rasmiy sayti — ayrim fanlar chuqur o'rganiladigan davlat ixtisoslashtirilgan maktabi, 1968-yildan faoliyat yuritadi."
+    },
+    "about": {
+      "title": "Maktab haqida",
+      "description": "Farg'ona shahar 2-maktabi tarixi, missiyasi va rasmiy ma'lumotlari",
+      "banner_subtitle": "Tarix, missiya va rasmiy ma'lumotlar"
+    },
+    "leadership": {
+      "title": "Rahbariyat",
+      "description": "Farg'ona shahar 2-maktabi direktori va direktor o'rinbosarlari",
+      "banner_subtitle": "Maktab ma'muriyati",
+      "director_title": "Maktab direktori",
+      "team_title": "Direktor o'rinbosarlari",
+      "team_subtitle": "Maktabning o'quv va ma'naviy-ma'rifiy ishlari.",
+      "message_label": "Direktor so'zi",
+      "default_message": "Maktabimiz — o'sish, bilim va kashfiyotlar makoni.",
+      "empty_title": "Rahbariyat hali qo’shilmagan",
+      "empty_body": "Direktor va o’rinbosarlar admin panel orqali qo’shilgach shu yerda paydo bo’ladi."
+    },
+    "teachers": {
+      "title": "O'qituvchilar va xodimlar",
+      "description": "Farg'ona shahar 2-maktabi pedagogik jamoasi",
+      "banner_subtitle": "92 nafar pedagog, barchasi oliy ma'lumotli",
+      "filter_all": "Barchasi",
+      "filter_teachers": "O'qituvchilar",
+      "filter_staff": "Xodimlar",
+      "search_placeholder": "Ism yoki fan bo'yicha qidirish...",
+      "empty_title": "O'qituvchilar ro'yxati hozircha bo'sh",
+      "empty_body": "Ma'muriyat pedagoglarni qo'shishi bilan ular shu sahifada paydo bo'ladi.",
+      "nothing_found": "Hech narsa topilmadi"
+    },
+    "achievers": {
+      "title": "Maktab faxri",
+      "description": "Farg'ona shahar 2-maktabining iqtidorli o'quvchilari va bitiruvchilari",
+      "banner_subtitle": "G'oliblarimiz va bitiruvchilarimiz",
+      "filter_all": "Barchasi",
+      "year_label": "Yil",
+      "empty_title": "Bo'lim hozircha bo'sh",
+      "empty_body": "Olimpiada g'oliblari va bitiruvchilar admin panelga qo'shilgach shu yerda paydo bo'ladi."
+    },
+    "clubs": {
+      "title": "Klub va to'garaklar",
+      "description": "Farg'ona shahar 2-maktabining klubi va to'garaklari",
+      "banner_subtitle": "Darsdan keyin nima bilan shug'ullanish mumkin",
+      "members": "Ishtirokchilar",
+      "schedule": "Jadval",
+      "teacher": "Rahbar",
+      "join": "Yozilish",
+      "close": "Yopish",
+      "empty_title": "To'garaklar hali qo'shilmagan",
+      "empty_body": "Maktab admin paneli orqali to'garaklarni qo'shgach, ular jadval, rahbar va alohida sahifa bilan shu yerda paydo bo'ladi."
+    },
+    "club_detail": {
+      "about": "To'garak haqida",
+      "goals": "Nimani o'rganamiz",
+      "achievements": "Yutuqlar",
+      "gallery": "Suratlar",
+      "room": "Xona",
+      "other": "Boshqa to'garaklar",
+      "back_to_all": "Barcha klub va to'garaklar",
+      "not_found_title": "To'garak topilmadi",
+      "not_found_body": "Havola eskirgan yoki yozuv o'chirilgan bo'lishi mumkin. Maktabning barcha to'garaklari ro'yxatini ko'ring."
+    },
+    "education": {
+      "title": "O'quv jarayoni",
+      "description": "Farg'ona shahar 2-maktabining o'quv rejasi va ta'lim haqida ma'lumot",
+      "banner_subtitle": "O'quv reja va ta'lim tashkil etilishi",
+      "tab_plan": "O'quv reja",
+      "tab_info": "Ta'lim haqida ma'lumot",
+      "grade_label": "Sinf",
+      "download_pdf": "PDF yuklab olish",
+      "subjects": "Fanlar",
+      "empty_grade": "{{grade}}-sinf o'quv rejasi tez orada qo'shiladi",
+      "info": {
+        "year": "O'quv yili",
+        "grading": "Baholash tizimi",
+        "grading_value": "5 ballik tizim",
+        "grades": "Sinflar",
+        "grades_value": "1–11-sinflar",
+        "language": "Ta'lim tili",
+        "shifts": "Smenalar",
+        "shifts_value": "2 smena",
+        "accreditation": "Boshqaruv organi",
+        "accreditation_value": "O'zbekiston Respublikasi Maktabgacha va maktab ta'limi vazirligi"
+      }
+    },
+    "news": {
+      "title": "Yangiliklar",
+      "description": "Farg'ona shahar 2-maktabining yangiliklari va tadbirlari",
+      "banner_subtitle": "Maktabda nimalar bo'lyapti",
+      "load_more": "Yana yuklash",
+      "all_categories": "Barchasi",
+      "views": "ko'rishlar",
+      "empty_title": "Yangiliklar hali yo'q",
+      "empty_body": "Maktab tadbirlari va e'lonlari shu yerda paydo bo'ladi."
+    },
+    "news_detail": {
+      "share": "Ulashish",
+      "copy_link": "Havolani nusxalash",
+      "related": "Shuni ham o'qing"
+    },
+    "contact": {
+      "title": "Aloqa",
+      "description": "Manzil, telefonlar va xarita — Farg'ona shahar 2-maktabi",
+      "banner_subtitle": "Bizga yozing yoki mehmon bo'ling"
+    },
+    "gallery": {
+      "title": "Galereya",
+      "description": "Farg'ona shahar 2-maktabining foto galereyasi",
+      "banner_subtitle": "Maktab hayoti suratlarda",
+      "filter_all": "Barchasi",
+      "filter_events": "Tadbirlar",
+      "filter_classes": "Darslar",
+      "filter_sport": "Sport",
+      "filter_clubs": "To'garaklar",
+      "empty_title": "Suratlar hali yo'q",
+      "empty_body": "Maktab hayoti suratlari admin panel orqali yuklangach shu yerda paydo bo'ladi."
+    },
+    "documents": {
+      "title": "Hujjatlar",
+      "description": "Farg'ona shahar 2-maktabining rasmiy hujjatlari: maktab pasporti va ma'lumotlar",
+      "banner_subtitle": "Rasmiy hujjatlar va maktab haqidagi ma'lumotlar",
+      "badge": "Yuklab olish",
+      "section_title": "Maktab hujjatlari",
+      "section_subtitle": "Fayllarni to'g'ridan-to'g'ri yuklab olish mumkin — ro'yxatdan o'tish shart emas.",
+      "download": "Maktab pasportini yuklab olish",
+      "contact_cta": "Boshqa hujjat so'rash",
+      "items": {
+        "passport": {
+          "title": "Maktab pasporti (2025)",
+          "body": "Maktab haqidagi rasmiy ma'lumotlar: binolar va hudud, o'quvchilar va sinflar soni, pedagoglar tarkibi, moddiy-texnik baza va bitiruvchilar natijalari.",
+          "meta": "DOCX · Microsoft Word formati · 2025-yilda yangilangan"
+        }
+      },
+      "notes": {
+        "official": {
+          "title": "Rasmiy manba",
+          "body": "Pasportdagi ma'lumotlar maktab ma'muriyati tomonidan taqdim etilgan va hisobot shakliga mos keladi."
+        },
+        "request": {
+          "title": "Boshqa hujjat kerakmi?",
+          "body": "Bizga yozing yoki qo'ng'iroq qiling — ma'lumotnoma tayyorlaymiz va uni qanday olishni tushuntiramiz."
+        }
+      }
+    },
+    "not_found": {
+      "title": "Sahifa topilmadi",
+      "heading": "Bunday sahifa yo'q",
+      "body": "Havola eskirgan yoki manzilda xatolik bo'lishi mumkin. Bosh sahifaga qayting yoki menyudan foydalaning."
+    }
+  },
+  "form": {
+    "name": "Ism",
+    "email": "Email",
+    "phone": "Telefon",
+    "subject": "Mavzu",
+    "message": "Xabar",
+    "send": "Yuborish",
+    "sending": "Yuborilmoqda...",
+    "success_title": "Xabar yuborildi!",
+    "success_body": "Tez orada javob beramiz.",
+    "error": "Yuborishda xatolik. Qayta urinib ko'ring.",
+    "required": "Majburiy maydon",
+    "invalid_email": "Email formati noto'g'ri",
+    "subjects": {
+      "general": "Umumiy savol",
+      "admission": "Qabul",
+      "partnership": "Hamkorlik",
+      "other": "Boshqa"
+    }
+  },
+  "about_page": {
+    "history_label": "Tarix",
+    "history_title": "Maktab qanday o'sdi",
+    "history_subtitle": "Maktab pasportidagi asosiy sanalar.",
+    "timeline": [
+      {
+        "year": "1968",
+        "title": "Birinchi bino",
+        "desc": "2-maktab Farg'ona markazida birinchi o'quvchilar uchun eshiklarini ochdi."
+      },
+      {
+        "year": "1989",
+        "title": "Ikkinchi bino",
+        "desc": "270 o'rinli ikkinchi bino qurildi — maktab quvvati 1150 o'ringa yetdi."
+      },
+      {
+        "year": "2009",
+        "title": "Dastur asosidagi ta'mir",
+        "desc": "Davlat dasturi doirasida binolarda joriy ta'mir ishlari o'tkazildi."
+      },
+      {
+        "year": "2024",
+        "title": "Yil bitiruvchilari",
+        "desc": "11-sinfning 134 nafar bitiruvchisi, ulardan 122 nafari OTMga kirdi — 91 %."
+      },
+      {
+        "year": "2025",
+        "title": "Bugun",
+        "desc": "1870 o'quvchi, 57 sinf, 92 pedagog va ayrim fanlarni chuqur o'rganish."
+      }
+    ],
+    "mission_title": "Missiya",
+    "mission_body": "Har bir o'quvchini chuqur bilim, ijodiy fikrlash va fuqarolik mas'uliyati bilan qurollantirish.",
+    "vision_title": "Maqsad",
+    "vision_body": "Kelajak yetakchilarini tarbiyalaydigan namunali O'zbekiston maktabiga aylanish.",
+    "values_title": "Qadriyatlar",
+    "values_body": "Halollik, bilimga intilish, madaniyatga hurmat va dunyoga ochiqlik.",
+    "gallery_label": "Foto galereya",
+    "gallery_title": "Maktabimiz suratlarda",
+    "facts_label": "Ma'lumotlar",
+    "facts_title": "Maktab haqida ma'lumot",
+    "categories_title": "Pedagoglar toifalar bo'yicha",
+    "categories": {
+      "highest": "Oliy toifa",
+      "first": "Birinchi toifa",
+      "second": "Ikkinchi toifa",
+      "specialist": "Mutaxassis",
+      "certified": "Milliy yoki xalqaro sertifikatga ega"
+    },
+    "results_title": "{{year}}-yil bitiruvchilari",
+    "results": {
+      "graduates": "11-sinf bitiruvchisi",
+      "score": "OTMga kirishning o'rtacha balli",
+      "admitted": "OTMga kirganlar"
+    },
+    "facts": {
+      "founded": "Qurilgan yili",
+      "building1": "1-bino",
+      "building2": "2-bino",
+      "type": "Maqomi",
+      "language": "Ta'lim tili",
+      "city": "Joylashuvi",
+      "city_value": "Farg'ona, shahar markazi",
+      "students": "O'quvchilar",
+      "classes": "Sinflar",
+      "shifts": "Smenalar",
+      "shift_detail": "I smena: {{c1}} sinf / {{s1}} o'quvchi, II smena: {{c2}} sinf / {{s2}} o'quvchi",
+      "capacity": "Loyiha quvvati",
+      "places": "o'rin",
+      "staff": "Pedagoglar",
+      "all_higher": "barchasi oliy ma'lumotli",
+      "area": "Hudud maydoni",
+      "people": "nafar",
+      "units": "ta",
+      "address": "Manzil",
+      "managing": "Boshqaruv organi"
+    }
+  },
+  "scroll_indicator": "Pastga",
+  "breadcrumb": {
+    "home": "Bosh sahifa"
+  },
+  "brand": {
+    "name": "2-MAKTAB",
+    "tagline": "Farg'ona · 1968-yildan"
+  }
+}
