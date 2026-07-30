@@ -1,0 +1,12 @@
+# Netlify: сборка Vite + SPA-роутинг.
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Все маршруты отдаём index.html (status 200) — иначе прямой заход на
+# /admin, /about, /documents и т.д. или перезагрузка страницы дают 404,
+# потому что маршрутизация происходит на стороне клиента (React Router).
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
