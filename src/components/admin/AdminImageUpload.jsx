@@ -1,7 +1,30 @@
 import { useState, useRef } from 'react';
 import { ref, uploadBytesResumable, getDownloadURL } from 'firebase/storage';
-import { Upload, Trash2, FileText } from 'lucide-react';
+import { Upload, Trash2, FileText, AlertCircle } from 'lucide-react';
+import toast from 'react-hot-toast';
 import { storage } from '@/firebase/config';
+
+/** Безопасное имя объекта в Storage: латиница/цифры + расширение. */
+function safeName(file) {
+  const dot = file.name.lastIndexOf('.');
+  const ext = dot >= 0 ? file.name.slice(dot).toLowerCase().replace(/[^.a-z0-9]/g, '') : '';
+  const rand = Math.random().toString(36).slice(2, 8);
+  return `${Date.now()}_${rand}${ext}`;
+}
+
+/** Понятное сообщение об ошибке загрузки по коду Firebase Storage. */
+function uploadErrorText(err) {
+  const code = err?.code || '';
+  if (code === 'storage/unauthorized') {
+    return 'Нет прав на загрузку. Опубликуйте правила Storage (см. FIREBASE_RULES.md) и войдите в админку.';
+  }
+  if (code === 'storage/unknown' || code === 'storage/retry-limit-exceeded') {
+    return 'Storage недоступен. Проверьте, что Storage включён в Firebase Console и правила опубликованы.';
+  }
+  if (code === 'storage/quota-exceeded') return 'Превышена квота хранилища Firebase.';
+  if (code === 'storage/unauthenticated') return 'Сессия истекла — войдите в админку заново.';
+  return `Ошибка загрузки: ${code || err?.message || 'неизвестно'}`;
+}
 
 export default function AdminImageUpload({
   onUpload,
@@ -15,19 +38,24 @@ export default function AdminImageUpload({
   const [progress, setProgress] = useState(0);
   const [uploading, setUploading] = useState(false);
   const [dragOver, setDragOver] = useState(false);
+  const [error, setError] = useState('');
   const inputRef = useRef(null);
 
   const uploadFile = (file) =>
     new Promise((resolve, reject) => {
-      const storageRef = ref(storage, `${storageFolder}/${Date.now()}_${file.name}`);
-      const task = uploadBytesResumable(storageRef, file);
+      const storageRef = ref(storage, `${storageFolder}/${safeName(file)}`);
+      const task = uploadBytesResumable(storageRef, file, { contentType: file.type || undefined });
       task.on(
         'state_changed',
         (snap) => setProgress(Math.round((snap.bytesTransferred / snap.totalBytes) * 100)),
         reject,
         async () => {
-          const url = await getDownloadURL(task.snapshot.ref);
-          resolve(url);
+          try {
+            const url = await getDownloadURL(task.snapshot.ref);
+            resolve(url);
+          } catch (e) {
+            reject(e);
+          }
         }
       );
     });
@@ -36,6 +64,7 @@ export default function AdminImageUpload({
     if (!files.length) return;
     setUploading(true);
     setProgress(0);
+    setError('');
     try {
       if (multiple && onMultiUpload) {
         const urls = [];
@@ -44,12 +73,17 @@ export default function AdminImageUpload({
           urls.push(url);
         }
         onMultiUpload(urls);
+        toast.success(`Загружено файлов: ${urls.length}`);
       } else {
         const url = await uploadFile(files[0]);
         onUpload(url);
+        toast.success('Файл загружен');
       }
     } catch (err) {
       console.error('Upload error:', err);
+      const msg = uploadErrorText(err);
+      setError(msg);
+      toast.error(msg);
     } finally {
       setUploading(false);
       setProgress(0);
@@ -127,6 +161,14 @@ export default function AdminImageUpload({
       {uploading && (
         <div style={{ height: 4, background: 'var(--color-border)', borderRadius: 2, marginTop: '0.5rem', overflow: 'hidden' }}>
           <div style={{ height: '100%', width: `${progress}%`, background: 'var(--color-primary-light)', transition: 'width 150ms', borderRadius: 2 }} />
+        </div>
+      )}
+
+      {/* Ошибка загрузки — видна прямо в форме */}
+      {error && (
+        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.4rem', marginTop: '0.5rem', color: 'var(--color-vivid)', fontSize: '0.78rem', lineHeight: 1.5 }}>
+          <AlertCircle size={14} style={{ flexShrink: 0, marginTop: 1 }} />
+          <span>{error}</span>
         </div>
       )}
     </div>

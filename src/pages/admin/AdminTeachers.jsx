@@ -42,7 +42,7 @@ export default function AdminTeachers() {
     queryOptions: { staleTime: 0 },
   });
 
-  const { register, handleSubmit, reset, formState: { errors } } = useForm();
+  const { register, handleSubmit, reset } = useForm();
 
   const openAdd = () => {
     setEditItem(null); setPhotoUrl('');
@@ -69,7 +69,8 @@ export default function AdminTeachers() {
       queryClient.invalidateQueries({ queryKey: ['teachers'] });
       setModalOpen(false);
     } catch (err) {
-      toast.error('Ошибка сохранения');
+      console.error(err);
+      toast.error(`Ошибка сохранения: ${err.code || err.message}`);
     } finally {
       setSaving(false);
     }

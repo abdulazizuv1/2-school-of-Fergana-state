@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import { Clock, Quote } from 'lucide-react';
 import LazyImage from './LazyImage';
 import { lf } from '@/utils/localeField';
@@ -20,7 +21,10 @@ function initials(name = '') {
  * поэтому размер карточки не «прыгает» после того, как фото добавят.
  */
 export default function PersonCard({ person, variant = 'teacher' }) {
+  const { t } = useTranslation();
   const name = lf(person, 'name');
+  // Админка сохраняет поле `experience`; старые записи могли иметь `experience_years`
+  const experience = Number(person.experience ?? person.experience_years ?? 0);
 
   /* ─── Гордость школы ─── */
   if (variant === 'achiever') {
@@ -188,11 +192,20 @@ export default function PersonCard({ person, variant = 'teacher' }) {
           </span>
         )}
 
-        {person.experience_years && (
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem', color: 'var(--color-text-muted)', fontSize: '0.78rem' }}>
+        {experience > 0 && (
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem', color: 'var(--color-text-muted)', fontSize: '0.78rem', marginBottom: lf(person, 'bio') ? '0.6rem' : 0 }}>
             <Clock size={12} />
-            <span>{person.experience_years} лет опыта</span>
+            <span>{experience} {t('pages.teachers.years_exp')}</span>
           </div>
+        )}
+
+        {lf(person, 'bio') && (
+          <p style={{
+            color: 'var(--color-text-muted)', fontSize: '0.82rem', lineHeight: 1.55, margin: 0,
+            overflow: 'hidden', display: '-webkit-box', WebkitLineClamp: 4, WebkitBoxOrient: 'vertical',
+          }}>
+            {lf(person, 'bio')}
+          </p>
         )}
       </div>
     </article>

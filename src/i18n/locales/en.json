@@ -160,7 +160,8 @@
       "search_placeholder": "Search by name or subject...",
       "empty_title": "No teachers listed yet",
       "empty_body": "Teachers will appear here as soon as the administration adds them.",
-      "nothing_found": "Nothing found"
+      "nothing_found": "Nothing found",
+      "years_exp": "years of experience"
     },
     "achievers": {
       "title": "Achievers",
