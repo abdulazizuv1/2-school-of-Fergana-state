@@ -309,29 +309,44 @@
     "history_subtitle": "Maktab pasportidagi asosiy sanalar.",
     "timeline": [
       {
+        "year": "1890",
+        "title": "Gimnaziya binosi",
+        "desc": "Tarixiy bino gimnaziya bo’lib xizmat qilgan — avval o’g’il bolalar gimnaziyasi, keyinchalik yigit-qizlar uchun tayyorlov sinflari bilan."
+      },
+      {
+        "year": "1917",
+        "title": "Imperiya davrining tugashi",
+        "desc": "1917-yilgi Oktyabr inqilobidan so’ng imperiya ta’lim tizimi barham topdi va gimnaziya yopildi."
+      },
+      {
+        "year": "1918–1964",
+        "title": "Pedagogika instituti",
+        "desc": "Bino oliy ta’lim va ma’muriy ehtiyojlar uchun qayta jihozlandi — xususan, bu yerda Farg’ona pedagogika instituti joylashgan edi."
+      },
+      {
+        "year": "1964",
+        "title": "Yangi maktab to’g’risida qaror",
+        "desc": "Shahar hokimiyati shaharning eski maktab binolari o’rniga zamonaviy ta’lim muassasasini tashkil etishga qaror qildi."
+      },
+      {
         "year": "1968",
-        "title": "Birinchi bino",
-        "desc": "2-maktab Farg'ona markazida birinchi o'quvchilar uchun eshiklarini ochdi."
+        "title": "2-maktabning ochilishi",
+        "desc": "2-maktab rasmiy ravishda ochildi va yangi zamonaviy binoda birinchi o’quvchilarni qabul qildi."
       },
       {
         "year": "1989",
         "title": "Ikkinchi bino",
-        "desc": "270 o'rinli ikkinchi bino qurildi — maktab quvvati 1150 o'ringa yetdi."
+        "desc": "270 o’rinli ikkinchi o’quv binosi qurildi — maktab quvvati 1150 o’quvchi o’rniga yetdi."
       },
       {
         "year": "2009",
-        "title": "Dastur asosidagi ta'mir",
-        "desc": "Davlat dasturi doirasida binolarda joriy ta'mir ishlari o'tkazildi."
-      },
-      {
-        "year": "2024",
-        "title": "Yil bitiruvchilari",
-        "desc": "11-sinfning 134 nafar bitiruvchisi, ulardan 122 nafari OTMga kirdi — 91 %."
+        "title": "Kapital ta’mir",
+        "desc": "Maktab binolari davlat ta’limni modernizatsiya dasturi doirasida ta’mirlandi."
       },
       {
         "year": "2025",
         "title": "Bugun",
-        "desc": "1870 o'quvchi, 57 sinf, 92 pedagog va ayrim fanlarni chuqur o'rganish."
+        "desc": "Bugun 2-maktabda 57 sinfda 1870 o’quvchi tahsil oladi, ayrim fanlar chuqur o’rganiladi."
       }
     ],
     "mission_title": "Missiya",

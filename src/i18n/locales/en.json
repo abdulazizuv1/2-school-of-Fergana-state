@@ -309,29 +309,44 @@
     "history_subtitle": "Key dates from the school passport.",
     "timeline": [
       {
+        "year": "1890",
+        "title": "The Gymnasium",
+        "desc": "The historic building served as a gymnasium — first a mens gymnasium, later with preparatory tracks for young men and women."
+      },
+      {
+        "year": "1917",
+        "title": "End of the Imperial era",
+        "desc": "After the 1917 October Revolution the Imperial education system collapsed and the gymnasium closed."
+      },
+      {
+        "year": "1918–1964",
+        "title": "Pedagogical Institute",
+        "desc": "The building was repurposed for higher education and administrative needs, notably housing the Fergana Pedagogical Institute."
+      },
+      {
+        "year": "1964",
+        "title": "Decision to found the school",
+        "desc": "City authorities decided to establish a modern institution to replace the citys older school sites."
+      },
+      {
         "year": "1968",
-        "title": "First building",
-        "desc": "School No. 2 opened its doors to the first students in the centre of Fergana."
+        "title": "School No. 2 opens",
+        "desc": "School No. 2 officially opened and welcomed its first students in a new, modern campus."
       },
       {
         "year": "1989",
         "title": "Second building",
-        "desc": "A second building for 270 places was built — the school grew to 1,150 student places."
+        "desc": "A second teaching building for 270 places was built, raising the schools capacity to 1,150 student places."
       },
       {
         "year": "2009",
-        "title": "State renovation",
-        "desc": "The buildings were renovated under a state programme."
-      },
-      {
-        "year": "2024",
-        "title": "Class of the year",
-        "desc": "134 graduates from grade 11, of whom 122 entered universities — 91%."
+        "title": "Major renovation",
+        "desc": "The school buildings were renovated under a state education modernization programme."
       },
       {
         "year": "2025",
         "title": "Today",
-        "desc": "1,870 students, 57 classes, 92 teachers and in-depth study of selected subjects."
+        "desc": "Today School No. 2 has 1,870 students in 57 classes, with in-depth study of selected subjects."
       }
     ],
     "mission_title": "Mission",
