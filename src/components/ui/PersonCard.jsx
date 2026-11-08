@@ -1,7 +1,27 @@
 import { useTranslation } from 'react-i18next';
-import { Clock, Quote } from 'lucide-react';
+import { Clock, Quote, Mail } from 'lucide-react';
 import LazyImage from './LazyImage';
 import { lf } from '@/utils/localeField';
+
+/** Кликабельная строка с email для карточек руководства. */
+function EmailLine({ email, muted = false }) {
+  if (!email) return null;
+  return (
+    <a
+      href={`mailto:${email}`}
+      style={{
+        display: 'inline-flex', alignItems: 'center', gap: '0.4rem',
+        color: muted ? 'var(--color-text-muted)' : 'var(--color-primary)',
+        fontSize: '0.82rem', textDecoration: 'none', wordBreak: 'break-all',
+        transition: 'color 200ms',
+      }}
+      onMouseEnter={(e) => { e.currentTarget.style.color = 'var(--color-primary)'; }}
+      onMouseLeave={(e) => { e.currentTarget.style.color = muted ? 'var(--color-text-muted)' : 'var(--color-primary)'; }}
+    >
+      <Mail size={13} style={{ flexShrink: 0 }} /> {email}
+    </a>
+  );
+}
 
 /** Инициалы для заглушки, когда фото ещё не загрузили. */
 function initials(name = '') {
@@ -129,6 +149,11 @@ export default function PersonCard({ person, variant = 'teacher' }) {
           <p style={{ fontSize: '0.85rem', color: 'var(--color-primary)', fontWeight: 500, margin: 0, lineHeight: 1.5 }}>
             {lf(person, 'position')}
           </p>
+          {person.email && (
+            <div style={{ marginTop: '0.7rem', paddingTop: '0.7rem', borderTop: '1px solid var(--color-border)' }}>
+              <EmailLine email={person.email} muted />
+            </div>
+          )}
         </div>
 
         <div
@@ -255,9 +280,14 @@ export function DirectorCard({ person, titleLabel, fallbackMessage }) {
         }}>
           {name}
         </h2>
-        <p style={{ color: 'var(--color-primary)', fontWeight: 500, marginBottom: '1.5rem' }}>
+        <p style={{ color: 'var(--color-primary)', fontWeight: 500, marginBottom: person?.email ? '0.75rem' : '1.5rem' }}>
           {lf(person || {}, 'position')}
         </p>
+        {person?.email && (
+          <p style={{ marginBottom: '1.5rem' }}>
+            <EmailLine email={person.email} />
+          </p>
+        )}
 
         <blockquote style={{
           position: 'relative',
