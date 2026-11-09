@@ -1,12 +1,9 @@
-# Netlify: сборка Vite + SPA-роутинг.
+# Netlify: сборка Vite.
+#
+# Все редиректы вынесены в public/_redirects (доменные 301 выше SPA-фолбэка).
+# В netlify.toml правил редиректа НЕТ намеренно: правила из netlify.toml
+# применяются РАНЬШЕ правил из _redirects, поэтому SPA-фолбэк здесь перекрыл бы
+# доменные 301 со старого домена на новый.
 [build]
   command = "npm run build"
   publish = "dist"
-
-# Все маршруты отдаём index.html (status 200) — иначе прямой заход на
-# /admin, /about, /documents и т.д. или перезагрузка страницы дают 404,
-# потому что маршрутизация происходит на стороне клиента (React Router).
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200

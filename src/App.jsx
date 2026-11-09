@@ -1,7 +1,7 @@
 import { Suspense, lazy, useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
-import { HelmetProvider } from 'react-helmet-async';
+import { HelmetProvider, Helmet } from 'react-helmet-async';
 import { Loader2 } from 'lucide-react';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
@@ -50,6 +50,19 @@ function AdminFallback() {
       <Loader2 size={32} color="white" style={{ animation: 'spin 1s linear infinite' }} />
       <style>{`@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }`}</style>
     </div>
+  );
+}
+
+// Канонический URL каждой страницы на основном домене school2fergana.uz.
+// Один источник canonical для всех маршрутов (страницы свой canonical не задают).
+const SITE_ORIGIN = 'https://school2fergana.uz';
+function CanonicalTag() {
+  const { pathname } = useLocation();
+  const canonical = SITE_ORIGIN + (pathname === '/' ? '/' : pathname);
+  return (
+    <Helmet>
+      <link rel="canonical" href={canonical} />
+    </Helmet>
   );
 }
 
@@ -121,6 +134,7 @@ function AppContent() {
   // Public site
   return (
     <>
+      <CanonicalTag />
       <AppLoader onComplete={() => setAppReady(true)} />
 
       {appReady && (

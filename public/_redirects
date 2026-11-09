@@ -1,1 +1,8 @@
+# ── Миграция домена: старый → новый (постоянный 301, путь сохраняется) ──
+# "!" (force) гарантирует, что эти правила срабатывают раньше SPA-фолбэка ниже.
+https://2-school-fergana.uz/*           https://school2fergana.uz/:splat  301!
+https://www.2-school-fergana.uz/*       https://school2fergana.uz/:splat  301!
+https://2-school-fergana.netlify.app/*  https://school2fergana.uz/:splat  301!
+
+# ── SPA-фолбэк: все остальные пути отдаём index.html (обязательно последним) ──
 /*    /index.html   200
